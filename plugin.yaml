@@ -1,0 +1,17 @@
+name: wsl-files
+label: WSL Files
+version: 0.1.0
+author: Bradon Fredrickson
+description: >
+  File manager pane for Hermes Desktop on a remote gateway: browse, edit,
+  drag-and-drop upload, new file/folder, rename, delete (to trash).
+homepage: https://github.com/bradonf333/hermes-wsl-files
+config_schema:
+  roots:
+    type: list
+    default: ["~"]
+    description: >
+      Folders the file manager may touch (absolute paths or ~). Everything
+      outside them is refused. Example: ["~", "/mnt/c/Users/you", "/mnt/d"]
+provides_tools: []
+provides_hooks: []

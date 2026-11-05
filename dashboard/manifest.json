@@ -1,0 +1,7 @@
+{
+  "name": "wsl-files",
+  "label": "WSL Files",
+  "description": "File manager for the gateway machine: browse, edit, upload, rename, delete.",
+  "version": "0.1.0",
+  "api": "plugin_api.py"
+}
